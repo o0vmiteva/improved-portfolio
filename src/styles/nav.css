@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    font-family: sans-serif;
+    z-index: 10000000;
+    position: fixed;
+    width: 100%;
+}
+
+
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 0;
+    right: -100vw;
+    bottom: 0;
+    height: 100vh;
+    visibility: hidden;
+    background-color: #1e1e24;
+    list-style: none;
+    transition: all .8s ease-out;
+    z-index: 10;
+}
+
+.show-nav .navbar-links {
+    right: 0;
+    width: 100vw;
+    visibility: visible;
+    border-right: 8px solid #22bdf2;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    width: 95vw;
+    margin-left: 4vw;
+}
+
+.navigation ul li a .icon {
+    display: none;
+}
+
+
+.navbar-burger {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    display: block;
+}
+
+.navbar-burger:hover {
+    cursor: pointer;
+}
+
+.burger-bar,
+.burger-bar::before,
+.burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: white;
+    z-index: 100000;
+    transition: all .5s ease-in-out;
+}
+
+.burger-bar::before,
+.burger-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+}
+
+.burger-bar::before {
+    transform: translateY(-12px);
+}
+
+.burger-bar::after {
+    transform: translateY(12px);
+}
+
+.show-nav .burger-bar {
+    background: transparent;
+    width: 0;
+}
+
+.show-nav .burger-bar::before {
+    transform: rotate(45deg);
+}
+
+.show-nav .burger-bar::after {
+    transform: rotate(-45deg);
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1e1e24;
+}
+
+.nav .nav-logo {
+    height: 2.4rem;
+}
+
+/* button animation */
+
+.list {
+    transform: translateY(100vh);
+}
+
+.show-nav .list {
+    transform: translateY(0);
+}
+
+.show-nav .slideInDown-1 {
+    transition: all 1s ease-out;
+}
+
+.show-nav .slideInDown-2 {
+    transition: all 1.1s ease-out;
+}
+
+.show-nav .slideInDown-3 {
+    transition: all 1.2s ease-out;
+}
+
+.show-nav .slideInDown-4 {
+    transition: all 1.3s ease-out;
+}
+
+.show-nav .slideInDown-5 {
+    transition: all 1.4s ease-out;
+}
+
+/* active link */
+
+.navigation ul li > a.active {
+    background-color: #22bdf2;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.navigation ul li > a.active .title {
+    color: #1e1e24;
+}
+
+.navigation ul li > a.active::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background:  transparent;
+    border-radius: 25%;
+    box-shadow: 15px 15px 0 #22bdf2;
+}
+
+.navigation ul li > a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 25%;
+    box-shadow: 15px -15px 0 #22bdf2;
+
+}
+
+@media (min-width: 680px) {
+
+
+    .nav {
+        padding: 0;
+    }
+
+
+    .navbar-burger,
+    .burger-bar,
+    .burger-bar::before,
+    .burger-bar::after {
+        display: none;
+    }
+
+    .navigation {
+        position: fixed;
+        height: 100vh;
+        width: 70px;
+        background: #1e1e24;
+        box-shadow: 8px 0 0 #22bdf2;
+        border-left: 6px solid #1e1e24;
+        overflow-x: hidden;
+        transition: width 0.5s;
+    }
+
+    .navbar-links {
+        visibility: visible;
+        transition: none;
+    }
+    
+    .nav .nav-logo {
+        position: absolute;
+        height: 2.4rem;
+        top: 1rem;
+        margin-left: 12px;
+    }
+    
+    .navigation:hover {
+        width: 230px;
+    }
+    
+    .navigation ul {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding-left: 5px;
+        height: 90vh;
+    }
+    
+    .navigation ul li {
+        position: relative;
+        list-style: none;
+        width: 100%;
+    }
+    
+    
+    
+    .navigation ul li > a.active {
+        background-color: #22bdf2;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .navigation ul li > a.active .title {
+        color: #1e1e24;
+    }
+    
+    
+    .navigation ul li a {
+        position: relative;
+        display: block;
+        width: 100%;
+        display: flex;
+        text-decoration: none;
+        color: white;
+        padding: 0;
+        font-size: 1rem;
+        margin-left: 0;
+    }
+    
+    .navigation ul li a:hover {
+        color: #22bdf2;
+    }
+    
+    .navigation ul li > a.active::before {
+        content: '';
+        position: absolute;
+        top: -30px;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 25%;
+        box-shadow: 15px 15px 0 #22bdf2;
+    }
+    
+    .navigation ul li > a.active::after {
+        content: '';
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 25%;
+        box-shadow: 15px -15px 0 #22bdf2;
+    
+    }
+    
+    .navigation ul li a .icon {
+        position: relative;
+        display: block;
+        min-width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 70px;
+       
+    }
+    
+    .navigation ul li a:hover .icon svg {
+        color: #22bdf2;
+    }
+    
+    .navigation ul li a.active .icon svg {
+        color: #1e1e24;
+    }
+    
+    .navigation ul li a .title {
+        position: relative;
+        display: block;
+        padding-left: 2px;
+        height: 60px;
+        line-height: 60px;
+        white-space: nowrap;
+    }
+
+    
+    .show-nav .list,
+    .list {
+        transform: none;
+    }
+    
+    .show-nav .slideInDown-1,
+    .show-nav .slideInDown-2,
+    .show-nav .slideInDown-3,
+    .show-nav .slideInDown-4,
+    .show-nav .slideInDown-5 {
+        transition: none;
+    }
+    
+
+ }
