@@ -10,7 +10,7 @@ export default function Homepage() {
     return (
 
       <div className='wrap'>
-        <p className='hello'>HELLO, I am</p>
+        <p className='hello'>HELLO, I am Velichka Miteva. <span>WEB DEVELOPER</span></p>
         <img className='shadow-logo' src={shadow} />
         <img className='original-logo' src={logo} />
         <div className='stack'>

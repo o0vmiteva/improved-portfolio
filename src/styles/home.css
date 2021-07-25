@@ -1,7 +1,12 @@
 /* ==== typography ==== */
 
-.hello {
+span {
   color: #66fcf1;
+  font-weight: 600;
+}
+
+.hello {
+  color: white;
 }
 
 
@@ -16,6 +21,7 @@
   }
   
   .hello,
+  .web,
   img {
     grid-column: 2 / -2;
   }
@@ -43,7 +49,7 @@
     display: block;
     width: 2px;
     height: 2px;
-    background: #66fcf1;
+    background: white;
     top: .6em;
     left: -3em;
     animation:         increase 2s; 
@@ -245,7 +251,7 @@
     }
 
     .stack {
-      margin-left: 7em;
+      margin-left: 5em;
     }
 
   }
