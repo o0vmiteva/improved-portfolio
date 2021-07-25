@@ -1,7 +1,7 @@
 /* ==== typography ==== */
 
 .hello {
-  color: #22bdf2;
+  color: #66fcf1;
 }
 
 
@@ -16,10 +16,19 @@
   }
   
   .hello,
-   img,
+  img {
+    grid-column: 2 / -2;
+  }
+
   .svg-wrapper,
   .svg-wrapper-2 {
-    grid-column: 2 / -2;
+    grid-column: 1 / -1;
+  }
+
+  .stack {
+    grid-column: 1 / -1;
+    margin-left: .8em;
+    margin-right: .8em;
   }
   
   .hello {
@@ -34,7 +43,7 @@
     display: block;
     width: 2px;
     height: 2px;
-    background: #22bdf2;
+    background: #66fcf1;
     top: .6em;
     left: -3em;
     animation:         increase 2s; 
@@ -55,14 +64,14 @@
   .shadow-logo {
     margin-top: 1em;
     width: 100%;
-    max-width: 420px;
+    max-width: 410px;
   }
   
   .original-logo {
     margin-top: 4em;
     width: 80%;
     margin-bottom: 2em;
-    max-width: 300px;
+    max-width: 290px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -87,10 +96,10 @@
 
   .shape {
     stroke-dasharray: 140 540;
-    stroke-dashoffset: -378;
+    stroke-dashoffset: -367;
     stroke-width: 8px;
     fill: transparent;
-    stroke: #22bdf2;
+    stroke: #66fcf1;
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
   }
 
@@ -126,18 +135,40 @@
       margin-top: 6em;
     }
   }
+
+  @media (min-width: 468px) {
+
+    .stack {
+      grid-column: 2 / -2;
+    }
+  }
   
-  @media (min-width: 500px) {
+  @media (min-width: 520px) {
     .original-logo {
       margin-top: 8.8em;
     }
+
+    .stack {
+      grid-column: 2 / -2;
+      width: 100%;
+      margin-bottom: 2em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 470px;
+    }
   }
+
 
   @media (min-width: 680px) {
 
     .wrap {
       grid-template-columns: 10em 1fr 1fr 3em;
     }
+
+    .svg-wrapper,
+    .svg-wrapper-2 {
+    grid-column: 2 / -2;
+  }
 
   }
   
@@ -147,7 +178,7 @@
     .wrap {
       height: 100vh;
       padding-top: 0;
-      grid-template-columns: 12em 1fr 1fr 5em;
+      grid-template-columns: 7em 1fr 1fr 1em;
       grid-template-rows: 1fr;
     }
 
@@ -164,18 +195,17 @@
 
     .svg-wrapper,
     .svg-wrapper-2 {
-      grid-column: 3;
-      grid-row: 2;
-      margin-left: auto;
-      margin-right: 0;
+      grid-column: 2 / -2;
+      margin-top: 0;
     }
 
     .svg-wrapper {
-      margin-top: 5em;
+      margin-left: -3.2em;
+      margin-right: 3em;
     }
 
     .svg-wrapper-2 {
-      margin-top: 10em;
+      margin-left: 16em;
     }
 
     .svg-wrapper:hover .shape,
@@ -184,14 +214,26 @@
       stroke-dashoffset: 0;
       stroke-dasharray: 760;
     }
+
+    .stack {
+      grid-row: 2;
+      grid-column: 3;
+      width: 90%;
+      margin-left: 2em;
+    }
   }
 
   @media (min-width: 1200px) {
 
     .wrap {
-      grid-template-columns: 19em 1fr 1fr 7em;
+      grid-template-columns: 10em 1fr 1fr 7em;
 
     }
+
+    .stack {
+      margin-left: 5em;
+    }
+
 
   }
 
@@ -199,7 +241,11 @@
   @media (min-width: 1310px) {
 
     .wrap {
-      grid-template-columns: 18em 493px 493px 1fr;
+      grid-template-columns: 14em 493px 493px 1fr;
+    }
+
+    .stack {
+      margin-left: 9em;
     }
 
   }
@@ -208,6 +254,10 @@
 
     .wrap {
       grid-template-columns: 1fr 493px 493px 1fr;
+    }
+
+    .stack {
+      margin-left: 5em;
     }
 
   }

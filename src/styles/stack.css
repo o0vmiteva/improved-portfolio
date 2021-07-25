@@ -1,0 +1,138 @@
+.wrapper {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3em;
+    max-width: 470px;
+}
+
+/* ==== font ==== */
+
+.wrapper h3 {
+    color: #66fcf1;
+    font-weight: 400;
+}
+
+.wrapper h3::after {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 3px;
+    background: #66fcf1;
+    margin: .3em auto 2em auto;
+}
+
+
+.wrapper p {
+    color: white;
+}
+
+
+/* === layout ==== */
+
+.wrapper h3,
+.html,
+.css,
+.git {
+    grid-column: 1 / -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.javascript {
+    grid-row: 2;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.react,
+.bootstrap {
+    grid-column: 1;
+    text-align: left;
+}
+
+.tailwind,
+.gatsby,
+.github {
+    grid-column: 3;
+    text-align: right;
+}
+
+
+.html {
+    margin-bottom: 2em;
+}
+
+.css {
+    grid-row: 3;
+}
+
+.bootstrap,
+.tailwind,
+.react,
+.gatsby {
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.github {
+    margin-top: .5em;
+}
+
+
+/* lines */
+
+
+.left-line{
+    background-color: #66fcf1;
+    height: 2px;
+    max-width: 90%;
+    margin-top: .5em;
+    margin-left: 1.5em;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.left-line::before {
+    content: "";
+    position: relative;
+    left: 0;
+    display: block;
+    width: 2px;
+    height: .5em;
+    background: #66fcf1;
+  }
+
+  .right-line{
+    background-color: #66fcf1;
+    height: 2px;
+    max-width: 90%;
+    margin-top: .5em;
+    margin-right: 1.5em;
+    grid-row: 3;
+    grid-column: 3 / 4;
+}
+
+.right-line::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 2px;
+    height: .5em;
+    background: #66fcf1;
+    left: 100%;
+  }
+
+  .second,
+  .javascript {
+      grid-row: 5;
+  }
+
+  .third,
+  .git {
+      grid-row: 7;
+  }
+
+
+
+

@@ -3,6 +3,9 @@ import '../styles/home.css'
 import logo from '../assets/svg/logo-svg.svg'
 import shadow from '../assets/svg/logo-dark.svg'
 import {Link} from 'gatsby'
+import Stack from './Stack'
+
+
 export default function Homepage() {
     return (
 
@@ -10,6 +13,9 @@ export default function Homepage() {
         <p className='hello'>HELLO, I am</p>
         <img className='shadow-logo' src={shadow} />
         <img className='original-logo' src={logo} />
+        <div className='stack'>
+          <Stack />
+        </div>
         <div class="svg-wrapper">
           <svg height="55" width="250" xmlns="http://www.w3.org/2000/svg">
             <rect class="shape" height="55" width="250" />

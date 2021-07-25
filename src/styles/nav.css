@@ -33,7 +33,7 @@
     right: 0;
     width: 100vw;
     visibility: visible;
-    border-right: 8px solid #22bdf2;
+    border-right: 8px solid #66fcf1;
 }
 
 .navigation ul li a {
@@ -150,7 +150,7 @@
 /* active link */
 
 .navigation ul li > a.active {
-    background-color: #22bdf2;
+    background-color: #66fcf1;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -167,7 +167,7 @@
     height: 30px;
     background:  transparent;
     border-radius: 25%;
-    box-shadow: 15px 15px 0 #22bdf2;
+    box-shadow: 15px 15px 0 #66fcf1;
 }
 
 .navigation ul li > a.active::after {
@@ -179,7 +179,7 @@
     height: 30px;
     background: transparent;
     border-radius: 25%;
-    box-shadow: 15px -15px 0 #22bdf2;
+    box-shadow: 15px -15px 0 #66fcf1;
 
 }
 
@@ -203,7 +203,7 @@
         height: 100vh;
         width: 70px;
         background: #1e1e24;
-        box-shadow: 8px 0 0 #22bdf2;
+        box-shadow: 8px 0 0 #66fcf1;
         border-left: 6px solid #1e1e24;
         overflow-x: hidden;
         transition: width 0.5s;
@@ -242,7 +242,7 @@
     
     
     .navigation ul li > a.active {
-        background-color: #22bdf2;
+        background-color: #66fcf1;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
@@ -264,7 +264,7 @@
     }
     
     .navigation ul li a:hover {
-        color: #22bdf2;
+        color: #66fcf1;
     }
     
     .navigation ul li > a.active::before {
@@ -276,7 +276,7 @@
         height: 30px;
         background: transparent;
         border-radius: 25%;
-        box-shadow: 15px 15px 0 #22bdf2;
+        box-shadow: 15px 15px 0 #66fcf1;
     }
     
     .navigation ul li > a.active::after {
@@ -288,7 +288,7 @@
         height: 30px;
         background: transparent;
         border-radius: 25%;
-        box-shadow: 15px -15px 0 #22bdf2;
+        box-shadow: 15px -15px 0 #66fcf1;
     
     }
     
@@ -303,7 +303,7 @@
     }
     
     .navigation ul li a:hover .icon svg {
-        color: #22bdf2;
+        color: #66fcf1;
     }
     
     .navigation ul li a.active .icon svg {
