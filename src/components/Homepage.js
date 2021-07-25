@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles/home.css'
-import logo from '../assets/svg/logo.svg'
-import shadow from '../assets/svg/shadow.svg'
+import logo from '../assets/svg/logo-svg.svg'
+import shadow from '../assets/svg/logo-dark.svg'
 import {Link} from 'gatsby'
 export default function Homepage() {
     return (
 
       <div className='wrap'>
-        <p className='hello'>HELLO, we are</p>
+        <p className='hello'>HELLO, I am</p>
         <img className='shadow-logo' src={shadow} />
         <img className='original-logo' src={logo} />
         <p className='text'>"Lorem ipsum dolor sit amet, 
