@@ -1,6 +1,6 @@
 /* ==== typography ==== */
 
-span {
+.web {
   color: #66fcf1;
   font-weight: 600;
 }
@@ -40,6 +40,7 @@ span {
   .hello {
     margin-top: 3em;
     margin-left: 3em;
+    grid-row: 1;
   }
 
   .hello::before {
@@ -125,6 +126,19 @@ span {
     place-items: center;
     padding: 1.1em 1.5em;
 
+  }
+
+
+  /* squares */
+
+  .square1 {
+    background-color: #66fcf1;
+    height: 4em;
+    width: 2.5em;
+    grid-row: 1;
+    grid-column: 3 / 6;
+    margin-left: auto;
+    margin-top: auto;
   }
 
   /* ==== meadia queries ==== */
