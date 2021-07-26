@@ -18,15 +18,15 @@ export default function Homepage() {
         </div>
         <div class="svg-wrapper">
           <svg height="55" width="250" xmlns="http://www.w3.org/2000/svg">
-            <rect class="shape" height="55" width="250" />
+            <rect class="shape shape1" height="55" width="250" />
           </svg>
-          <Link to='/projects' className='text-1 btn-1'>PROJECTS</Link>
+          <Link to='/projects' className='text-1 btn-1'>CONTACT ME</Link>
         </div>
         <div class="svg-wrapper-2">
           <svg height="55" width="250" xmlns="http://www.w3.org/2000/svg">
             <rect class="shape" height="55" width="250" />
           </svg>
-          <Link to='/services' className='text-1 btn-2'>SERVICES</Link>
+          <Link to='/services' className='text-1 btn-2'>PROJECTS</Link>
         </div>
         <div className='square1'></div>
         <div className='square2'></div>

@@ -110,6 +110,12 @@
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
   }
 
+  .shape1 {
+    stroke-dasharray: 175 540;
+    stroke-dashoffset: -346;
+  }
+  
+
   .text-1 {
     font-size: 16px;
     letter-spacing: 5px;
@@ -148,6 +154,11 @@
     .shape {
       stroke-dashoffset: -363;
     }
+  }
+
+  .shape1 {
+    stroke-dasharray: 175 540;
+    stroke-dashoffset: -346;
   }
   
   @media (min-width: 350px) {
