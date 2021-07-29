@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/nav.css'
 import { HomeOutline, PersonOutline, FolderOpenOutline, BriefcaseOutline, CallOutline } from 'react-ionicons'
-import logo from '../assets/svg/logo.svg'
+import logo from '../assets/svg/logo-svg.svg'
 import { useState } from 'react'
 import { Link } from 'gatsby'
 
@@ -34,19 +34,19 @@ export default function Navigation() {
                 <li className='list slideInDown-2'>
                     <Link activeClassName='active' to='/About'>
                         <span className='icon'><PersonOutline color={'#ffff'} font-size='1.5em' z-index='1' /></span>
-                        <span className='title'>About us</span>
+                        <span className='title'>About</span>
                     </Link>
                 </li>
-                <li className='list slideInDown-3'>
+                {/* <li className='list slideInDown-3'>
                     <Link activeClassName='active' to='#'>
                         <span className='icon'><BriefcaseOutline color={'#ffff'} /></span>
                         <span className='title'>Projects</span>
                     </Link>
-                </li>
+                </li> */}
                 <li className='list slideInDown-4'>
                     <Link activeClassName='active' to='#'>
                         <span className='icon'><FolderOpenOutline color={'#ffff'} /></span>
-                        <span className='title'>Services</span>
+                        <span className='title'>Projects</span>
                     </Link>
                 </li>
                 <li className='list slideInDown-5'>
