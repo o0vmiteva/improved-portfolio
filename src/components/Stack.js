@@ -5,7 +5,10 @@ import '../styles/stack.css'
 export default function Stack() {
     return (
         <div className='wrapper'>
-            <h3>Stack</h3>
+            <div className='text'>
+                <span className='top-half'>Stack</span>
+                <span className='bottom-half'>Stack</span>
+            </div>
             <p className='html'>HTML</p>
             <p className='css'>CSS</p>
             <div className='left-line'></div>
