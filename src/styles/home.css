@@ -134,7 +134,13 @@
     display: grid;
     place-items: center;
     padding: 1.1em 1.5em;
+  }
 
+  .svg-wrapper:hover .shape,
+  .svg-wrapper-2:hover .shape {
+      stroke-width: 2px;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 760;
   }
 
 
