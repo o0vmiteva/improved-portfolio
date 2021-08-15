@@ -26,13 +26,13 @@ export default function Navigation() {
             </div>
             <ul className='navbar-links'>
                 <li className='list slideInDown-1'>
-                    <Link activeClassName='active' to='/'>
+                    <Link data-text='HOME' activeClassName='active' to='/'>
                         <span className='icon'><HomeOutline color={'#ffff'} /></span>
                         <span className='title'>Home</span>
                     </Link>
                 </li>
                 <li className='list slideInDown-2'>
-                    <Link activeClassName='active' to='/About'>
+                    <Link data-text='ABOUT' activeClassName='active' to='/About'>
                         <span className='icon'><PersonOutline color={'#ffff'} font-size='1.5em' z-index='1' /></span>
                         <span className='title'>About</span>
                     </Link>
@@ -44,13 +44,13 @@ export default function Navigation() {
                     </Link>
                 </li> */}
                 <li className='list slideInDown-4'>
-                    <Link activeClassName='active' to='#'>
+                    <Link data-text='PROJECTS' activeClassName='active' to='#'>
                         <span className='icon'><FolderOpenOutline color={'#ffff'} /></span>
                         <span className='title'>Projects</span>
                     </Link>
                 </li>
                 <li className='list slideInDown-5'>
-                    <Link activeClassName='active' to='#'>
+                    <Link data-text='CONTACT' activeClassName='active' to='#'>
                         <span className='icon'><CallOutline color={'#ffff'} /></span>
                         <span className='title'>Contact</span>
                     </Link>
