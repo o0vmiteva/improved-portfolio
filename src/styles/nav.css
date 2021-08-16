@@ -191,12 +191,12 @@ a:after {
 
 a:hover::before {
     color: #66fcf1;
-    transform: translate(10px, -3px);
+    transform: translate(9px, -3px);
 }
 
 a:hover::after {
     color: #66fcf1;
-    transform: translate(-10px, 3px);
+    transform: translate(-9px, 3px);
 }
 
 .navigation ul li > a.active::before {
