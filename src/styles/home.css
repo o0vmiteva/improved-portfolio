@@ -156,7 +156,7 @@
 
   .square {
     position: absolute;
-    bottom: -100px;
+    bottom: -120px;
     background-color: #66fcf1;
     animation: boxes 12s infinite ease-in-out;
   }
@@ -219,10 +219,10 @@
   }
 
   .square:nth-child(9) {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     left: 90%;
-    animation-delay: 7s;
+    animation-delay: 1s;
   }
 
   .square:nth-child(10) {
@@ -235,7 +235,7 @@
 
 
   @keyframes boxes {
-    0% { bottom: -100px; }
+    0% { bottom: -120px; }
 
     50% { opacity: 0; }
 
