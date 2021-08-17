@@ -94,6 +94,7 @@
     margin-left: auto;
     margin-right: auto;
     grid-row: 4;
+    z-index: 100000000000000;
   }
 
   .svg-wrapper {
@@ -146,6 +147,105 @@
 
   /* squares */
 
+  .container {
+    position: relative;
+    grid-row: 1 / -1;
+    grid-column: 1 / -1;
+    overflow: hidden;
+  }
+
+  .square {
+    position: absolute;
+    top: -100px;
+    background-color: #66fcf1;
+    animation: boxes 12s infinite ease-in-out;
+  }
+
+  .square:nth-child(1) {
+    width: 75px;
+    height: 75px;
+    left: 10%;
+  }
+
+  .square:nth-child(2) {
+    width: 85px;
+    height: 85px;
+    left: 20%;
+    animation-delay: 4s;
+  }
+
+  .square:nth-child(3) {
+    width: 102px;
+    height: 102px;
+    left: 45%;
+    animation-delay: 8s;
+  }
+
+  .square:nth-child(4) {
+    width: 70px;
+    height: 70px;
+    left: 55%;
+    animation-delay: 2s;
+    opacity: .4;
+  }
+
+  .square:nth-child(5) {
+    width: 60px;
+    height: 60px;
+    left: 27%;
+    animation-delay: 8s;
+  }
+
+  .square:nth-child(6) {
+    width: 120px;
+    height: 120px;
+    left: 60%;
+    animation-delay: 4s;
+    opacity: .5;
+  }
+
+  .square:nth-child(7) {
+    width: 90px;
+    height: 90px;
+    left: 85%;
+    animation-delay: 9s;
+  }
+
+  .square:nth-child(8) {
+    width: 70px;
+    height: 70px;
+    left: 75%;
+    animation-delay: 4s;
+  }
+
+  .square:nth-child(9) {
+    width: 150px;
+    height: 150px;
+    left: 90%;
+    animation-delay: 7s;
+  }
+
+  .square:nth-child(10) {
+    width: 55px;
+    height: 55px;
+    left: 60%;
+    animation-delay: 7s;
+  }
+
+
+
+  @keyframes boxes {
+    0% { top: -100px; }
+
+    50% { opacity: 0; }
+
+    100% { top: 100%;
+    transform: rotate(180deg);
+    opacity: 0; }
+  }
+
+
+/* 
   .square1 {
     background-color: #66fcf1;
     height: 4em;
@@ -202,7 +302,7 @@
     margin-left: auto;
     margin-top: 11.5em;
     margin-right: -.7em;
-  }
+  } */
 
   /* ==== meadia queries ==== */
 
