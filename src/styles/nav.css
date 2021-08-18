@@ -156,7 +156,6 @@
     border-bottom-left-radius: 5px;
 }
 .navigation ul li > a.active .title {
-    /* color: #1e1e24; */
     color: transparent;
 
 }
@@ -188,6 +187,14 @@ a:after {
     transition: 0.5s;
     clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
 }
+
+/* a:hover {
+    transition: 0.5s ease-in-out;
+    text-shadow: 0 0 10px #66fcf28a,
+                0 0 20px #66fcf28a,
+                0 0 40px #66fcf28a,
+                0 0 80px #66fcf28a;
+} */
 
 a:hover::before {
     color: #66fcf1;
