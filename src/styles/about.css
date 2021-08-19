@@ -34,12 +34,29 @@
 
 .about-wrap {
     display: grid;
-    grid-template-columns: 2em 1fr 1fr 2em;
+    grid-template-columns: 2em 1fr 1fr 1fr 1fr 2em;
     padding-top: 4.5em;
     font-family: sans-serif;
     overflow: hidden;
     margin-top: 0;
     background-color: #202833;
+}
+
+.html-icon {
+    grid-column: 2;
+}
+
+.css-icon {
+    grid-column: 3;
+}
+
+.js-icon {
+    grid-column: 4;
+}
+
+.react-icon {
+    grid-column: 5;
+    margin-bottom: 2em;
 }
 
 .about-wrap h1,

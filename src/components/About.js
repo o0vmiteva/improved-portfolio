@@ -4,6 +4,10 @@ import Layout from '../components/Layout'
 import about from '../assets/jpg/about.jpg'
 import { FaGithub } from 'react-icons/fa'
 import { GrLinkedin } from 'react-icons/gr'
+import { AiFillHtml5 } from 'react-icons/ai'
+import { DiCss3 } from 'react-icons/di'
+import { IoLogoJavascript } from 'react-icons/io'
+import { FaReact } from 'react-icons/fa'
 
 
 export default function About() {
@@ -11,7 +15,18 @@ export default function About() {
     <Layout>
       <div className='about-wrap'>
         <h1 className='about-me'>About me</h1>
-        <img className='about-image' src={about} />
+        <div className='html-icon'>
+        < AiFillHtml5 size='5em'/>
+        </div>
+        <div className='css-icon'>
+        < DiCss3 size='5em'/>
+        </div>
+        <div className='js-icon'>
+        < IoLogoJavascript size='5em'/>
+        </div>
+        <div className='react-icon'>
+        < FaReact size='5em'/>
+        </div>
         <div className='short-info'>
           <p>name:</p>
           <p>working at:</p>
