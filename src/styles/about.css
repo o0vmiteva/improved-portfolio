@@ -1,0 +1,45 @@
+/* ==== Typography ==== */
+
+.wrapper h1 {
+    color: #66fcf1;
+}
+
+.short-info p:nth-child(1),
+.short-info p:nth-child(2),
+.short-info p:nth-child(3),
+.short-info p:nth-child(4),
+.short-info p:nth-child(5),
+.short-info p:nth-child(6) {
+    font-weight: 600;
+    color: #66fcf1;
+
+}
+
+
+/* ==== Layout ==== */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2em 1fr 1fr 2em;
+    /* background-image: linear-gradient(47deg, #202833 20%, #293441 51%, #202833 75%); */
+    padding-top: 4.5em;
+    font-family: sans-serif;
+    overflow: hidden;
+    margin-top: 0;
+    background-color: #202833;
+}
+
+.wrapper h1,
+.about-image,
+.short-info,
+.long-info,
+.github,
+.linkedin {
+    grid-column: 2 / -2;
+}
+
+.about-image {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
