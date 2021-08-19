@@ -1,6 +1,6 @@
 /* ==== Typography ==== */
 
-.wrapper h1 {
+.about-wrap h1 {
     color: #66fcf1;
 }
 
@@ -18,7 +18,7 @@
 
 /* ==== Layout ==== */
 
-.wrapper {
+.about-wrap {
     display: grid;
     grid-template-columns: 2em 1fr 1fr 2em;
     /* background-image: linear-gradient(47deg, #202833 20%, #293441 51%, #202833 75%); */
@@ -29,7 +29,7 @@
     background-color: #202833;
 }
 
-.wrapper h1,
+.about-wrap h1,
 .about-image,
 .short-info,
 .long-info,

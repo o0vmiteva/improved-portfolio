@@ -9,7 +9,7 @@ import { GrLinkedin } from 'react-icons/gr'
 export default function About() {
   return (
     <Layout>
-      <div className='wrapper'>
+      <div className='about-wrap'>
         <h1>About me</h1>
         <img className='about-image' src={about} />
         <div className='short-info'>
@@ -41,17 +41,17 @@ export default function About() {
         <div className='linkedin'>
           <GrLinkedin />
         </div>
-        <div className='container'>
-          <div className='square'></div>
-            <div className='square'></div>
-              <div className='square'></div>
-                <div className='square'></div>
-                  <div className='square'></div>
-                    <div className='square'></div>
-                      <div className='square'></div>
-                        <div className='square'></div>
-                          <div className='square'></div>
-                            <div className='square'></div>
+        <div className='box=container'>
+          <div className='box'></div>
+            <div className='box'></div>
+              <div className='box'></div>
+                <div className='box'></div>
+                  <div className='box'></div>
+                    <div className='box'></div>
+                      <div className='box'></div>
+                        <div className='box'></div>
+                          <div className='box'></div>
+                            <div className='box'></div>
         </div>
       </div>
     </Layout>
