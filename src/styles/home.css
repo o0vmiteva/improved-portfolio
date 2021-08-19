@@ -300,6 +300,7 @@
 
     .wrap {
       grid-template-columns: 10em 1fr 1fr 3em;
+      padding-top: 0;
     }
     .svg-wrapper,
     .svg-wrapper-2 {
