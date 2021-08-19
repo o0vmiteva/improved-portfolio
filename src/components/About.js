@@ -10,7 +10,7 @@ export default function About() {
   return (
     <Layout>
       <div className='about-wrap'>
-        <h1>About me</h1>
+        <h1 className='about-me'>About me</h1>
         <img className='about-image' src={about} />
         <div className='short-info'>
           <p>name:</p>

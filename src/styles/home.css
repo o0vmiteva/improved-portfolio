@@ -18,6 +18,7 @@
     padding-top: 4.5em;
     font-family: sans-serif;
     overflow: hidden;
+    background-image: linear-gradient(47deg, #202833 20%, #293441 51%, #202833 75%);
   }
   
   .hello,
