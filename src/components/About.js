@@ -35,24 +35,13 @@ export default function About() {
         dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
         et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
         takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        <div className='github'>
+        <div className='git-icon'>
           <FaGithub />
         </div>
-        <div className='linkedin'>
+        <div className='linkedin-icon'>
           <GrLinkedin />
         </div>
-        <div className='box=container'>
-          <div className='box'></div>
-            <div className='box'></div>
-              <div className='box'></div>
-                <div className='box'></div>
-                  <div className='box'></div>
-                    <div className='box'></div>
-                      <div className='box'></div>
-                        <div className='box'></div>
-                          <div className='box'></div>
-                            <div className='box'></div>
-        </div>
+        
       </div>
     </Layout>
   )

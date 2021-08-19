@@ -15,7 +15,6 @@
 .wrap {
     display: grid;
     grid-template-columns: 2em 1fr 1fr 2em;
-    background-image: linear-gradient(47deg, #202833 20%, #293441 51%, #202833 75%);
     padding-top: 4.5em;
     font-family: sans-serif;
     overflow: hidden;
@@ -148,15 +147,15 @@
   /* squares */
 
   .container {
-    position: relative;
-    grid-row: 4;
-    grid-column: 1 / -1;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
     overflow: hidden;
   }
 
   .square {
     position: absolute;
-    bottom: -120px;
+    top: -200px;
     background-color: #66fcf1;
     animation: boxes 12s infinite ease-in-out;
   }
@@ -235,11 +234,11 @@
 
 
   @keyframes boxes {
-    0% { bottom: -120px; }
+    0% { top: -200px; }
 
-    60% { opacity: 0; }
+    50% { opacity: 0; }
 
-    100% { bottom: 100%;
+    100% { top: 100%;
     transform: rotate(180deg);
     opacity: 0; }
   }
@@ -272,29 +271,6 @@
 
     .stack {
       grid-column: 2 / -2;
-    }
-
-    .square1 {
-      width: 2.5em;
-    }
-
-    .square2 {
-      margin-right: 2em;
-    }
-
-    .square3 {
-      margin-right: -1em;
-    }
-
-    .square4 {
-      margin-left: auto;
-      margin-top: 7em;
-      margin-right: 2em;
-    }
-
-    .square5 {
-      margin-right: 1em;
-      margin-top: 11em;
     }
   }
   
@@ -348,15 +324,6 @@
       grid-row: 1 / -1;
     }
 
-    @keyframes boxes {
-      0% { bottom: -120px; }
-  
-      50% { opacity: 0; }
-  
-      100% { bottom: 100%;
-      transform: rotate(180deg);
-      opacity: 0; }
-    }
   
 
     .hello {
