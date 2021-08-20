@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/about.css'
 import Layout from '../components/Layout'
-import about from '../assets/jpg/about.jpg'
 import { FaGithub } from 'react-icons/fa'
 import { GrLinkedin } from 'react-icons/gr'
 import { AiFillHtml5 } from 'react-icons/ai'
