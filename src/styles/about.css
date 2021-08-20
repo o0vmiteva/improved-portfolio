@@ -159,6 +159,12 @@
 }
 
 
+/* ==== media queries ==== */
+
+.about-wrap {
+    min-height: 100vh;
+}
+
 
 
 
