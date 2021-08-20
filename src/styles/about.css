@@ -11,17 +11,6 @@
 }
 
 
-/* .about-me::after {
-    content: '';
-    display: block;
-    width: 5.7em;
-    height: .9em;
-    margin-top: -14px;
-    z-index: -1;
-    margin-left: 0.5em;
-    background-color: #293441;
-} */
-
 .short-info p:nth-child(1),
 .short-info p:nth-child(2),
 .short-info p:nth-child(3),

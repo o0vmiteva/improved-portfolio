@@ -112,6 +112,7 @@
     justify-content: space-between;
     padding: 1rem;
     background-color: #1e1e24;
+    border-bottom: 4px solid #66fcf1;
 }
 
 .nav .nav-logo {
@@ -229,6 +230,7 @@ a:hover::after {
 
     .nav {
         padding: 0;
+        border-bottom: none;
     }
 
 
