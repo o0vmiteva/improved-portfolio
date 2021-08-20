@@ -1,0 +1,50 @@
+<svg width="337" height="436" viewBox="0 0 337 436" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+          #background {
+         animation-duration: 10s;
+         animation-name: changeBg;
+         animation-iteration-count: infinite;
+         animation-timing-function: ease-in-out;
+      }
+
+      @keyframes changeBg {
+         0% {
+            fill: #202833;
+            transform: rotate(0deg);
+         }
+
+         30% {
+            fill: #283340;
+            transform: rotate(90deg);
+
+         }
+
+         60% {
+            fill: #293441;
+            transform: rotate(360deg);
+
+         }
+
+         80% {
+            fill: #13181f;
+
+         }
+
+         100% {
+            fill: #202833;
+            transform: rotate(0deg);
+
+         }
+      }
+</style>
+<g clip-path="url(#clip0)">
+<rect width="337" height="436" fill="#1E1E24"/>
+<rect width="1440" height="1024" fill="#1E1E24" id='background'/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="337" height="436" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+

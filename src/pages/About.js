@@ -14,33 +14,35 @@ export default function About() {
     <Layout>
       <div className='about-wrap'>
         <h1 className='about-me'>About me</h1>
-        <p className='vmiteva'>o0vmiteva</p>
-        <div className='html-icon'>
-        < AiFillHtml5 size='5em' color='white'/>
-        </div>
-        <div className='css-icon'>
-        < DiCss3 size='5em'color='white'/>
-        </div>
-        <div className='js-icon'>
-        < IoLogoJavascript size='5em'color='white'/>
-        </div>
-        <div className='react-icon'>
-        < FaReact size='5em'color='white'/>
-        </div>
-        <p className='greeting'>Hi there, I'm Velichka = <span className='color-change'>o0vmiteva</span></p>
-        <div className='short-info'>
-          <p>name:</p>
-          <p>working at:</p>
-          <p>title:</p>
-          <p>exp:</p>
-          <p>stack:</p>
-          <p>location:</p>
-          <p>Velichka Miteva</p>
-          <p>ITcreate</p>
-          <p>Frontend developer</p>
-          <p>1 year</p>
-          <p>HTML | CSS | JS | React</p>
-          <p>Berlin</p>
+        <div className='bg-change'>
+          <p className='vmiteva'>o0vmiteva</p>
+          <div className='html-icon'>
+          < AiFillHtml5 size='3.5em' color='#66fcf1'/>
+          </div>
+          <div className='css-icon'>
+          < DiCss3 size='3.5em'color='#66fcf1'/>
+          </div>
+          <div className='js-icon'>
+          < IoLogoJavascript size='3.5em'color='#66fcf1'/>
+          </div>
+          <div className='react-icon'>
+          < FaReact size='3.5em'color='#66fcf1'/>
+          </div>
+          <p className='greeting'>Hi there, I'm Velichka = <span className='color-change'>o0vmiteva</span></p>
+          <div className='short-info'>
+            <p>name:</p>
+            <p>working at:</p>
+            <p>title:</p>
+            <p>exp:</p>
+            <p>stack:</p>
+            <p>location:</p>
+            <p>Velichka Miteva</p>
+            <p>ITcreate</p>
+            <p>Frontend developer</p>
+            <p>1 year</p>
+            <p>HTML | CSS | JS | React</p>
+            <p>Berlin</p>
+          </div>
         </div>
         <p className='long-info'>Lorem ipsum dolor sit amet, consetetur sadipscing 
         elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
