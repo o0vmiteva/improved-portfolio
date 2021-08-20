@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Homepage from "../components/Homepage"
-import About from "../components/About"
+import About from "../pages/About"
 
 
 
