@@ -17,16 +17,16 @@ export default function About() {
         <div className='bg-change'>
           <p className='vmiteva'>o0vmiteva</p>
           <div className='html-icon'>
-          < AiFillHtml5 size='3.5em' color='#66fcf1'/>
+          < AiFillHtml5 size='3.5em' color='white'/>
           </div>
           <div className='css-icon'>
-          < DiCss3 size='3.5em'color='#66fcf1'/>
+          < DiCss3 size='3.5em'color='white'/>
           </div>
           <div className='js-icon'>
-          < IoLogoJavascript size='3.5em'color='#66fcf1'/>
+          < IoLogoJavascript size='3.5em'color='white'/>
           </div>
           <div className='react-icon'>
-          < FaReact size='3.5em'color='#66fcf1'/>
+          < FaReact size='3.5em'color='white'/>
           </div>
           <p className='greeting'>Hi there, I'm Velichka = <span className='color-change'>o0vmiteva</span></p>
           <div className='short-info'>
@@ -54,10 +54,10 @@ export default function About() {
         et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
         takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <div className='git-icon'>
-          <FaGithub size='3em' color='white'/>
+          <FaGithub size='2.5em' color='white'/>
         </div>
         <div className='linkedin-icon'>
-          <GrLinkedin size='3em' color='white'/>
+          <GrLinkedin size='2.5em' color='white'/>
         </div>
         
       </div>
