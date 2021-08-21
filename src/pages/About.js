@@ -7,6 +7,7 @@ import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3 } from 'react-icons/di'
 import { IoLogoJavascript } from 'react-icons/io'
 import { FaReact } from 'react-icons/fa'
+import MouseParticles from 'react-mouse-particles'
 
 
 export default function About() {
@@ -59,7 +60,13 @@ export default function About() {
         <div className='linkedin-icon'>
           <GrLinkedin size='2.5em' color='white'/>
         </div>
-        
+        {/* <MouseParticles
+          g={1}
+          cull="MuiSvgIcon-root,MuiButton-root"
+          color={["#66fcf1", "white", "#66fcf25b"]}
+          level={6}
+          radius={0}
+        /> */}
       </div>
     </Layout>
   )

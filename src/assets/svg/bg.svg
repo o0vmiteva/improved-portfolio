@@ -9,7 +9,7 @@
 
       @keyframes changeBg {
          0% {
-            fill: #202833;
+            fill: #293441;
             transform: rotate(0deg);
          }
 
@@ -20,7 +20,7 @@
          }
 
          60% {
-            fill: #293441;
+            fill: #202833 ;
             transform: rotate(360deg);
 
          }
@@ -31,7 +31,7 @@
          }
 
          100% {
-            fill: #202833;
+            fill: #293441;
             transform: rotate(0deg);
 
          }
