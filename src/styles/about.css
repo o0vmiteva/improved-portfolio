@@ -325,6 +325,15 @@
 
     }
 
+    .short-info,
+    .greeting {
+        font-size: 18px;
+    }
+
+    .short-info {
+        width: 500px;
+    }
+
 }
 
 
