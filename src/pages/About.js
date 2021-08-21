@@ -39,7 +39,7 @@ export default function About() {
             <p>location:</p>
             <p>Velichka Miteva</p>
             <p>ITcreate</p>
-            <p>Frontend developer/ CTO</p>
+            <p>Frontend developer</p>
             <p>1 year</p>
             <p>HTML | CSS | JS | React</p>
             <p>Berlin</p>
@@ -60,7 +60,6 @@ export default function About() {
         <div className='linkedin-icon'>
           <GrLinkedin size='2.5em' color='white'/>
         </div>
-        {/* <div className='proba'></div> */}
         {/* <MouseParticles
           g={1}
           cull="MuiSvgIcon-root,MuiButton-root"

@@ -48,13 +48,6 @@
     margin-bottom: 2em;
 }
 
-.proba {
-    grid-column: 1 / -1;
-    background-image: url(../assets/svg/proba.svg);
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .vmiteva {
     grid-column: 2 / -2;
