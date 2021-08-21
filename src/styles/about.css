@@ -303,6 +303,30 @@
     }
 }
 
+@media (min-width: 1450px) {
+    .bg-change {
+        grid-template-columns: 20em 1fr 1fr 15em;
+    }
+
+    .about-wrap {
+        grid-template-columns: 20em 1fr 1fr 1fr 1fr 15em;
+
+    }
+
+}
+
+@media (min-width: 1700px) {
+    .bg-change {
+        grid-template-columns: 20em 1fr 1fr 20em;
+    }
+
+    .about-wrap {
+        grid-template-columns: 20em 1fr 1fr 1fr 1fr 20em;
+
+    }
+
+}
+
 
 
 
