@@ -95,10 +95,12 @@
 
 .short-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: .4em;
+    grid-template-columns: .8fr 1.2fr;
+    grid-row-gap: .25em;
     margin-bottom: 2em;
-    max-width: 450px;
+    max-width: 480px;
+    font-size: 18px;
+    grid-column-gap: 1em;
 }
 
 .short-info p:nth-child(1),
@@ -172,6 +174,11 @@
     .react-icon {
         font-size: 1.5em;
     }
+
+    .short-info {
+        grid-column-gap: 4em;
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 470px) {
@@ -216,15 +223,15 @@
     }
 
     .css-icon {
-        margin-left: 5em;
+        margin-left: 4em;
     }
 
     .js-icon {
-        margin-left: 10em;
+        margin-left: 8em;
     }
 
     .react-icon {
-        margin-left: 15em;
+        margin-left: 12em;
     }
 
 
@@ -232,7 +239,8 @@
         grid-column: 3;
         grid-row: 2;
         margin-left: auto;
-        width: 370px;
+        width: 450px;
+        margin-left: 2em;
     }
 
     .greeting {
@@ -245,11 +253,11 @@
 
 @media (min-width: 1120px) {
     .bg-change {
-        grid-template-columns: 10em 1fr 1fr 5em;
+        grid-template-columns: 8em 1fr 1fr 5em;
     }
 
     .about-wrap {
-        grid-template-columns: 10em 1fr 1fr 1fr 1fr 5em;
+        grid-template-columns: 8em 1fr 1fr 1fr 1fr 5em;
 
     }
 
@@ -271,6 +279,7 @@
     .react-icon {
         margin-left: 13em;
     }
+
 }
 
 @media (min-width: 1280px) {
@@ -279,7 +288,7 @@
     }
 
     .about-wrap {
-        grid-template-columns: 15em 1fr 1fr 1fr 1fr 10em;
+        grid-template-columns: 13em 1fr 1fr 1fr 1fr 8em;
 
     }
 
@@ -301,37 +310,39 @@
     .react-icon {
         margin-left: 13em;
     }
+
 }
 
 @media (min-width: 1450px) {
     .bg-change {
-        grid-template-columns: 20em 1fr 1fr 15em;
+        grid-template-columns: 20em 1fr 1fr 10em;
     }
 
     .about-wrap {
-        grid-template-columns: 20em 1fr 1fr 1fr 1fr 15em;
+        grid-template-columns: 20em 1fr 1fr 1fr 1fr 10em;
 
+    }
+
+    .short-info {
+        margin-left: 5em;
     }
 
 }
 
 @media (min-width: 1700px) {
     .bg-change {
-        grid-template-columns: 20em 1fr 1fr 20em;
+        grid-template-columns: 20em 1fr 1fr 18em;
     }
 
     .about-wrap {
-        grid-template-columns: 20em 1fr 1fr 1fr 1fr 20em;
+        grid-template-columns: 20em 1fr 1fr 1fr 1fr 18em;
 
     }
 
-    .short-info,
-    .greeting {
-        font-size: 18px;
-    }
 
     .short-info {
         width: 500px;
+        margin-left: 5em;
     }
 
 }
