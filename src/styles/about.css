@@ -173,6 +173,19 @@
     }
 }
 
+@media (min-width: 470px) {
+
+    .git-icon,
+    .linkedin-icon {
+        grid-row: 4;
+    }
+
+    .linkedin-icon {
+        grid-column: 2;
+        margin-left: 4em;
+    }
+}
+
 @media (min-width: 680px) {
    
     .bg-change {
@@ -181,7 +194,111 @@
 
     .about-wrap {
         grid-template-columns: 7em 1fr 1fr 1fr 1fr 2em;
+    }
 
+}
+
+
+@media (min-width: 980px) {
+   
+    .bg-change {
+        grid-template-columns: 7em 1fr 1fr 2em;
+    }
+
+
+    .html-icon,
+    .css-icon,
+    .js-icon,
+    .react-icon {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .css-icon {
+        margin-left: 5em;
+    }
+
+    .js-icon {
+        margin-left: 10em;
+    }
+
+    .react-icon {
+        margin-left: 15em;
+    }
+
+
+    .short-info {
+        grid-column: 3;
+        grid-row: 2;
+        margin-left: auto;
+        width: 370px;
+    }
+
+    .greeting {
+        grid-row: 2;
+        margin-top: auto;
+    }
+
+
+}
+
+@media (min-width: 1120px) {
+    .bg-change {
+        grid-template-columns: 10em 1fr 1fr 5em;
+    }
+
+    .about-wrap {
+        grid-template-columns: 10em 1fr 1fr 1fr 1fr 5em;
+
+    }
+
+    .html-icon,
+    .css-icon,
+    .js-icon,
+    .react-icon {
+        font-size: 1.8em;
+    }
+
+    .css-icon {
+        margin-left: 4em;
+    }
+
+    .js-icon {
+        margin-left: 8em;
+    }
+
+    .react-icon {
+        margin-left: 13em;
+    }
+}
+
+@media (min-width: 1280px) {
+    .bg-change {
+        grid-template-columns: 15em 1fr 1fr 10em;
+    }
+
+    .about-wrap {
+        grid-template-columns: 15em 1fr 1fr 1fr 1fr 10em;
+
+    }
+
+    .html-icon,
+    .css-icon,
+    .js-icon,
+    .react-icon {
+        font-size: 1.8em;
+    }
+
+    .css-icon {
+        margin-left: 4em;
+    }
+
+    .js-icon {
+        margin-left: 8em;
+    }
+
+    .react-icon {
+        margin-left: 13em;
     }
 }
 
