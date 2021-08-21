@@ -39,13 +39,21 @@
 
 .bg-change {
     grid-column: 1 / -1;
-    background-image: url(../assets/svg/bg.svg);
+    background-image: url(../assets/svg/bg-change.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     grid-template-columns: 2em 1fr 1fr 1fr 1fr 2em;
     padding-top: 2em;
     margin-bottom: 2em;
+}
+
+.proba {
+    grid-column: 1 / -1;
+    background-image: url(../assets/svg/proba.svg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .vmiteva {
