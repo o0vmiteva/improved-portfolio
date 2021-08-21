@@ -173,6 +173,18 @@
     }
 }
 
+@media (min-width: 680px) {
+   
+    .bg-change {
+        grid-template-columns: 7em 1fr 1fr 1fr 1fr 2em;
+    }
+
+    .about-wrap {
+        grid-template-columns: 7em 1fr 1fr 1fr 1fr 2em;
+
+    }
+}
+
 
 
 
