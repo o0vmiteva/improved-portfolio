@@ -8,7 +8,7 @@ import { DiCss3 } from 'react-icons/di'
 import { IoLogoJavascript } from 'react-icons/io'
 import { FaReact } from 'react-icons/fa'
 import MouseParticles from 'react-mouse-particles'
-
+import nameSvg from '../assets/svg/Group-4.svg'
 
 export default function About() {
   return (
@@ -16,6 +16,7 @@ export default function About() {
       <div className='about-wrap'>
         <h1 className='about-me'>About me</h1>
         <div className='bg-change'>
+          <img className='name' src= {nameSvg} />
           <p className='vmiteva'>o0vmiteva</p>
           <div className='html-icon'>
           < AiFillHtml5 size='3.5em' color='white'/>

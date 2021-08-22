@@ -11,6 +11,12 @@
     height: 65px;
 }
 
+.name {
+    margin-bottom: 1em;
+    grid-column: 2 / -2;
+    max-width: 329px;
+}
+
 
 .short-info p:nth-child(1),
 .short-info p:nth-child(2),
