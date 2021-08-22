@@ -17,7 +17,6 @@ export default function About() {
         <h1 className='about-me'>About me</h1>
         <div className='bg-change'>
           <img className='name' src= {nameSvg} />
-          <p className='vmiteva'>o0vmiteva</p>
           <div className='html-icon'>
           < AiFillHtml5 size='3.5em' color='white'/>
           </div>
