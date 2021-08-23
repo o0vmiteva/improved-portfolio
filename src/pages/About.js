@@ -14,7 +14,13 @@ export default function About() {
   return (
     <Layout>
       <div className='about-wrap'>
-        <h1 className='about-me'>About me</h1>
+        <h1 className='about-me'>
+          <span className='a'>A</span>
+          <span className='rest'>b</span>
+          <span className='rest'>o</span>
+          <span className='rest'>u</span>
+          <span className='rest'>t</span>
+        </h1>
         <div className='bg-change'>
           <img className='name' src= {nameSvg} />
           <div className='html-icon'>
@@ -55,10 +61,12 @@ export default function About() {
         et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
         takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <div className='git-icon'>
-          <FaGithub size='2.5em' color='white'/>
+          <FaGithub size='2.5em' color='#66fcf1'
+          background='#1e1e24'/>
         </div>
         <div className='linkedin-icon'>
-          <GrLinkedin size='2.5em' color='white'/>
+          <GrLinkedin size='2.5em' color='#66fcf1'
+          background='#1e1e24' />
         </div>
         {/* <MouseParticles
           g={1}
