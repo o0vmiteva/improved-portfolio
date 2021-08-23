@@ -16,9 +16,18 @@
     color: #66fcf1;
 }
 
+.a:hover {
+    animation: lighting 1.5s linear;
+    animation-timing-function: ease-out;
+    animation-name: jump;
+
+}
+
 .rest:hover {
-    animation: lighting 1s linear;
+    animation: lighting 1.5s linear;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
 }
 
 
@@ -26,12 +35,62 @@
 @keyframes lighting {
     0% { color: #293441;
     text-shadow: none;
-    height: 80px;}
+    height: 80px;
+    transform: translateY(0);
+}
+10% {
+    transform: translateY(0);
+ }
+
+ 25% {
+    transform: translateY(-35px);
+ }
+
+ 50% {
+    transform: translateY(0);
+ }
+
+ 57% {
+    transform: translateY(-7px);
+ }
+
+ 64% {
+    transform: translateY(0);
+ }
     100% { color: #66fcf1;
     text-shadow: none;
-    height: 80px;}
+    height: 80px;
+    transform: translateY(0);
+}
 }
 
+@keyframes jump {
+    0% { 
+    transform: translateY(0);
+}
+10% {
+    transform: translateY(0);
+ }
+
+ 25% {
+    transform: translateY(-35px);
+ }
+
+ 50% {
+    transform: translateY(0);
+ }
+
+ 57% {
+    transform: translateY(-7px);
+ }
+
+ 64% {
+    transform: translateY(0);
+ }
+    100% { 
+    transform: translateY(0);
+}
+}
 .name {
     margin-bottom: 1em;
     grid-column: 2 / -2;
