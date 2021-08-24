@@ -8,12 +8,13 @@
     color: #293441;
     display: flex;
     font-weight: 600;
+    animation: show 1.5s;
+    animation-timing-function: ease-out;
 }
-
-
 
 .a {
     color: #66fcf1;
+    
 }
 
 .a:hover {
@@ -91,6 +92,33 @@
     transform: translateY(0);
 }
 }
+
+@keyframes show {
+0% { 
+    transform: translateY(-55px);
+    opacity: 0;
+}
+10% {
+    transform: translateY(0);
+ }
+
+ 25% {
+    transform: translateY(-35px);
+ }
+
+ 50% {
+    transform: translateY(0);
+ }
+
+ 57% {
+    transform: translateY(-7px);
+ }
+100% { 
+    transform: translateY(0);
+}
+}
+
+
 .name {
     margin-bottom: 1em;
     grid-column: 2 / -2;
