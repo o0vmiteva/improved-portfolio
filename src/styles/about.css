@@ -3,7 +3,7 @@
 .about-me {
     margin-bottom: 1rem;
     line-height: 1;
-    font-size: 80px;
+    font-size: 65px;
     text-align: left;
     color: #293441;
     display: flex;
@@ -37,7 +37,6 @@
 @keyframes lighting {
     0% { color: #293441;
     text-shadow: none;
-    height: 80px;
     transform: translateY(0);
 }
 10% {
@@ -61,7 +60,6 @@
  }
     100% { color: #66fcf1;
     text-shadow: none;
-    height: 80px;
     transform: translateY(0);
 }
 }
@@ -313,6 +311,7 @@
         grid-column: 2;
         margin-left: 4em;
     }
+
 }
 
 @media (min-width: 680px) {
@@ -323,6 +322,10 @@
 
     .about-wrap {
         grid-template-columns: 7em 1fr 1fr 1fr 1fr 2em;
+    }
+
+    .about-me {
+        font-size: 90px;
     }
 
 }
