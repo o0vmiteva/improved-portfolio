@@ -11,6 +11,7 @@ import MouseParticles from 'react-mouse-particles'
 import nameSvg from '../assets/svg/Group-4.svg'
 import Bounce from 'react-reveal/Bounce';
 import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
 
 export default function About() {
   return (
@@ -52,29 +53,29 @@ export default function About() {
         <div className='bg-change'>
           <img className='name' src={nameSvg} />
           <div className='html-bounce'>
-            <Bounce left delay={1200}>
+            <Fade delay={2400}>
               <Reveal effect='move'>
               <div className='html-icon'>
                 < AiFillHtml5 size='3.5em' color='white'/>
               </div>            
               </Reveal>
-            </Bounce>
+            </Fade>
           </div>
-          <Bounce left delay={800}>
+          <Fade delay={1800}>
             <div className='css-icon'>
               < DiCss3 size='3.5em' color='white' />
             </div>
-          </Bounce>
-          <Bounce left delay={400}>
+          </Fade>
+          <Fade delay={1200}>
             <div className='js-icon'>
               < IoLogoJavascript size='3.5em' color='white' />
             </div>
-          </Bounce>
-          <Bounce left>
+          </Fade>
+          <Fade delay={600}>
             <div className='react-icon'>
               < FaReact size='3.5em' color='white' />
             </div>
-          </Bounce>
+          </Fade>
           <p className='greeting'>Hi there, I'm Velichka = <span className='color-change'>o0vmiteva</span></p>
           <div className='short-info'>
             <p>name:</p>
