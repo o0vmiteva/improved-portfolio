@@ -51,11 +51,15 @@ export default function About() {
 
         <div className='bg-change'>
           <img className='name' src={nameSvg} />
-          <Bounce left delay={1200}>
-            <div className='html-icon'>
-              < AiFillHtml5 size='3.5em' color='white' />
-            </div>
-          </Bounce>
+          <div className='html-bounce'>
+            <Bounce left delay={1200}>
+              <Reveal effect='move'>
+              <div className='html-icon'>
+                < AiFillHtml5 size='3.5em' color='white'/>
+              </div>            
+              </Reveal>
+            </Bounce>
+          </div>
           <Bounce left delay={800}>
             <div className='css-icon'>
               < DiCss3 size='3.5em' color='white' />
