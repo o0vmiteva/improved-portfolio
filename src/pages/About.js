@@ -53,29 +53,29 @@ export default function About() {
         <div className='bg-change'>
           <img className='name' src={nameSvg} />
           <div className='html-bounce'>
-            <Fade delay={2400}>
+            <Bounce left delay={1200}>
               <Reveal effect='move'>
               <div className='html-icon'>
                 < AiFillHtml5 size='3.5em' color='white'/>
               </div>            
               </Reveal>
-            </Fade>
+            </Bounce>
           </div>
-          <Fade delay={1800}>
+          <Bounce left delay={800}>
             <div className='css-icon'>
               < DiCss3 size='3.5em' color='white' />
             </div>
-          </Fade>
-          <Fade delay={1200}>
+          </Bounce>
+          <Bounce left delay={400}>
             <div className='js-icon'>
               < IoLogoJavascript size='3.5em' color='white' />
             </div>
-          </Fade>
-          <Fade delay={600}>
+          </Bounce>
+          <Bounce left>
             <div className='react-icon'>
               < FaReact size='3.5em' color='white' />
             </div>
-          </Fade>
+          </Bounce>
           <p className='greeting'>Hi there, I'm Velichka = <span className='color-change'>o0vmiteva</span></p>
           <div className='short-info'>
             <p>name:</p>
