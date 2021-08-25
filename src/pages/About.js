@@ -9,31 +9,59 @@ import { IoLogoJavascript } from 'react-icons/io'
 import { FaReact } from 'react-icons/fa'
 import MouseParticles from 'react-mouse-particles'
 import nameSvg from '../assets/svg/Group-4.svg'
+import Bounce from 'react-reveal/Bounce';
+import Reveal from 'react-reveal/Reveal';
 
 export default function About() {
   return (
     <Layout>
       <div className='about-wrap'>
         <h1 className='about-me'>
-          <span className='a'>A</span>
-          <span className='rest'>b</span>
-          <span className='rest'>o</span>
-          <span className='rest'>u</span>
-          <span className='rest'>t</span>
+            <Bounce top>
+              <Reveal effect='jump'>
+                <div className='a'>A</div>
+              </Reveal>
+            </Bounce>
+          <Bounce top delay={400}>
+            <Reveal effect='lighting'>
+              <div className='rest'>b</div>
+            </Reveal>
+          </Bounce>
+          <Bounce top delay={800}>
+            <Reveal effect='lighting'>
+
+              <div className='rest'>o</div>
+            </Reveal>
+          </Bounce>
+          <Bounce top delay={1200}>
+            <Reveal effect='lighting'>
+
+              <div className='rest'>u</div>
+            </Reveal>
+          </Bounce>
+          <Bounce top delay={1600}>
+            <Reveal effect='lighting'>
+
+              <div className='rest'>t</div>
+            </Reveal>
+          </Bounce>
         </h1>
+
+
+
         <div className='bg-change'>
-          <img className='name' src= {nameSvg} />
+          <img className='name' src={nameSvg} />
           <div className='html-icon'>
-          < AiFillHtml5 size='3.5em' color='white'/>
+            < AiFillHtml5 size='3.5em' color='white' />
           </div>
           <div className='css-icon'>
-          < DiCss3 size='3.5em'color='white'/>
+            < DiCss3 size='3.5em' color='white' />
           </div>
           <div className='js-icon'>
-          < IoLogoJavascript size='3.5em'color='white'/>
+            < IoLogoJavascript size='3.5em' color='white' />
           </div>
           <div className='react-icon'>
-          < FaReact size='3.5em'color='white'/>
+            < FaReact size='3.5em' color='white' />
           </div>
           <p className='greeting'>Hi there, I'm Velichka = <span className='color-change'>o0vmiteva</span></p>
           <div className='short-info'>
@@ -51,22 +79,22 @@ export default function About() {
             <p>Berlin</p>
           </div>
         </div>
-        <p className='long-info'>Lorem ipsum dolor sit amet, consetetur sadipscing 
-        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
-        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus 
-        est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
-        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
-        takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <p className='long-info'>Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+          aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+          dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+          est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <div className='git-icon'>
           <FaGithub size='2.5em' color='#66fcf1'
-          background='#1e1e24'/>
+            background='#1e1e24' />
         </div>
         <div className='linkedin-icon'>
           <GrLinkedin size='2.5em' color='#66fcf1'
-          background='#1e1e24' />
+            background='#1e1e24' />
         </div>
         {/* <MouseParticles
           g={1}

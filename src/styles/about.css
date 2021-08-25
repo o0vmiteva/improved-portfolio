@@ -8,8 +8,8 @@
     color: #293441;
     display: flex;
     font-weight: 600;
-    animation: show 1.5s;
-    animation-timing-function: ease-out;
+    /* animation: show 1.5s;
+    animation-timing-function: ease-out; */
 }
 
 .a {
@@ -17,11 +17,12 @@
     
 }
 
-.a:hover {
+
+.a:hover{
     animation: lighting 1.5s linear;
     animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
     animation-name: jump;
-
 }
 
 .rest:hover {
@@ -93,7 +94,7 @@
 }
 }
 
-@keyframes show {
+/* @keyframes show {
 0% { 
     transform: translateY(-55px);
     opacity: 0;
@@ -116,7 +117,7 @@
 100% { 
     transform: translateY(0);
 }
-}
+} */
 
 
 .name {
