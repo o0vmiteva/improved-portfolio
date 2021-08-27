@@ -44,6 +44,7 @@
 
 
 
+
 @keyframes lighting {
     0% { color: #293441;
     text-shadow: none;
@@ -105,10 +106,6 @@
 
 @keyframes move {
 
-    10% {
-        color: white;
-    }
-
     10%,
     90% {
        transform: translate3d(-1px, 0, 0);
@@ -130,10 +127,8 @@
        transform: translate3d(4px, 0, 0);
     }
 
-    100% {
-        color: #66fcf1;
-    }
  }
+
 
 /* @keyframes show {
 0% { 
@@ -371,6 +366,8 @@
    
     .bg-change {
         grid-template-columns: 7em 1fr 1fr 1fr 1fr 2em;
+        overflow: hidden;
+
     }
 
     .about-wrap {

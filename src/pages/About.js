@@ -12,6 +12,8 @@ import nameSvg from '../assets/svg/Group-4.svg'
 import Bounce from 'react-reveal/Bounce';
 import Reveal from 'react-reveal/Reveal';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'gatsby'
+
 
 export default function About() {
   return (
@@ -51,7 +53,9 @@ export default function About() {
 
 
         <div className='bg-change'>
-          <img className='name' src={nameSvg} />
+        <Link className='name' target="_blank" to='https://github.com/o0vmiteva'>
+          <img src={nameSvg} />
+        </Link>
           <div className='html-bounce'>
             <Bounce left delay={1200}>
               <Reveal effect='move'>
@@ -102,12 +106,10 @@ export default function About() {
           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
           takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <div className='git-icon'>
-          <FaGithub size='2.5em' color='#66fcf1'
-            background='#1e1e24' />
+          <FaGithub size='2.5em' color='white'/>
         </div>
         <div className='linkedin-icon'>
-          <GrLinkedin size='2.5em' color='#66fcf1'
-            background='#1e1e24' />
+          <GrLinkedin size='2.5em' color='white' />
         </div>
         {/* <MouseParticles
           g={1}
