@@ -32,11 +32,14 @@
 
 }
 
-.html-icon:hover {
+.html-icon:hover svg,
+.css-icon:hover svg,
+.js-icon:hover svg,
+.react-icon:hover svg {
     animation-duration: 1s;
     animation-name: move;
-    animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 
 
