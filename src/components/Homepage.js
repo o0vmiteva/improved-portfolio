@@ -16,7 +16,13 @@ export default function Homepage() {
       <div className='stack'>
         <Stack />
       </div>
-      <div class="svg-wrapper">
+       <Link to='/projects' className='contact-button btn'><span>C</span>ontact me</Link>
+
+       <Link to='/services' className='projects-button btn'><span>P</span>rojects</Link>
+
+
+
+      {/* <div class="svg-wrapper">
         <svg height="55" width="250" xmlns="http://www.w3.org/2000/svg">
           <rect class="shape shape1" height="55" width="250" />
         </svg>
@@ -27,7 +33,7 @@ export default function Homepage() {
           <rect class="shape" height="55" width="250" />
         </svg>
         <Link to='/services' className='text-1 btn-2'>PROJECTS</Link>
-      </div>
+      </div> */}
       <div className='container'>
         <div className='square'></div>
           <div className='square'></div>
