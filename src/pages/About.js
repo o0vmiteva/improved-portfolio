@@ -105,12 +105,13 @@ export default function About() {
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
           takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        <div className='git-icon'>
+        <Link className='git-icon' target="_blank" to='https://github.com/o0vmiteva'>
           <FaGithub size='2.5em' color='white'/>
-        </div>
-        <div className='linkedin-icon'>
+        </Link>
+        <Link className='linkedin-icon' target="_blank" to='https://github.com/o0vmiteva'>
           <GrLinkedin size='2.5em' color='white' />
-        </div>
+        </Link>
+       
         {/* <MouseParticles
           g={1}
           cull="MuiSvgIcon-root,MuiButton-root"

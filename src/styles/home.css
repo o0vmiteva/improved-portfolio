@@ -86,65 +86,6 @@
     margin-right: auto;
   }
 
-  .svg-wrapper,
-  .svg-wrapper-2 {
-    position: relative;
-    max-width: 250px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    grid-row: 4;
-    z-index: 1000000;
-  }
-
-  .svg-wrapper {
-    margin-top: 3em;
-  }
-
-  .svg-wrapper-2 {
-    margin-top: 8.5em;
-  }
-
-  .shape {
-    stroke-dasharray: 140 540;
-    stroke-dashoffset: -367;
-    stroke-width: 8px;
-    fill: transparent;
-    stroke: #66fcf1;
-    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-  }
-
-  .shape1 {
-    stroke-dasharray: 175 540;
-    stroke-dashoffset: -346;
-  }
-  
-
-  .text-1 {
-    font-size: 16px;
-    letter-spacing: 5px;
-    color: #fff;
-    top: -59px;
-    position: relative;
-  }
-
-  .svg-wrapper a,
-  .svg-wrapper-2 a {
-    text-decoration: none;
-    margin-left: auto;
-    display: grid;
-    place-items: center;
-    padding: 1.1em 1.5em;
-  }
-
-  .svg-wrapper:hover .shape,
-  .svg-wrapper-2:hover .shape {
-      stroke-width: 2px;
-      stroke-dashoffset: 0;
-      stroke-dasharray: 760;
-  }
-
-
   .btn {
     text-decoration: none;
     width: 220px;
@@ -205,6 +146,7 @@
     position: absolute;
     color: #66fcf1;
     transition: all 0.2s;
+    top: -75%;
   }
 
   .projects-button span::before {
@@ -212,6 +154,7 @@
     position: absolute;
     color: #66fcf1;
     transition: all 0.2s;
+    top: -75%;
   }
 
   .btn:hover span::before {
