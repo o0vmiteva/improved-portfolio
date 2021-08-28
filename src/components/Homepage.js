@@ -4,6 +4,7 @@ import logo from '../assets/svg/logo-svg.svg'
 import shadow from '../assets/svg/logo-dark.svg'
 import { Link } from 'gatsby'
 import Stack from './Stack'
+import Bounce from 'react-reveal/Bounce';
 
 
 export default function Homepage() {
@@ -11,8 +12,12 @@ export default function Homepage() {
 
     <div className='wrap'>
       <p className='hello'>HELLO, I am Velichka Miteva. <span className='web'>WEB DEVELOPER</span></p>
-      <img className='shadow-logo' src={shadow} />
-      <img className='original-logo' src={logo} />
+      <Bounce left>
+        <img className='shadow-logo' src={shadow} />
+      </Bounce>
+      <Bounce left delay={400}>
+        <img className='original-logo' src={logo} />
+      </Bounce>
       <div className='stack'>
         <Stack />
       </div>

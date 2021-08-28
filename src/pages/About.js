@@ -11,7 +11,6 @@ import MouseParticles from 'react-mouse-particles'
 import nameSvg from '../assets/svg/Group-4.svg'
 import Bounce from 'react-reveal/Bounce';
 import Reveal from 'react-reveal/Reveal';
-import Fade from 'react-reveal/Fade';
 import { Link } from 'gatsby'
 
 
