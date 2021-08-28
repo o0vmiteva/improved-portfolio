@@ -51,20 +51,20 @@
     position: relative;
     left: 0;
     display: block;
-    width: 2px;
+    width: 40px;
     height: 2px;
     background: white;
     top: .6em;
     left: -3em;
-    animation:         increase 2s; 
-    animation-fill-mode: forwards;
+    /* animation:         increase 2s; 
+    animation-fill-mode: forwards; */
   }
 
-  @keyframes increase {
+  /* @keyframes increase {
     100% {
         width: 40px;
     }
-}
+} */
   
   .shadow-logo,
   .original-logo {
