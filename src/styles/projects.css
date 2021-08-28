@@ -1,0 +1,155 @@
+.projects-wrap {
+    background-color: #1e1e24;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: 2em 1fr 2em;
+}
+
+
+.my-work {
+    margin-bottom: 1rem;
+    line-height: 1;
+    font-size: 65px;
+    text-align: left;
+    color: #293441;
+    display: flex;
+    font-weight: 600;
+    grid-column: 2 / -2;
+    grid-row: 1;
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+
+.a {
+    color: #66fcf1;
+    
+}
+
+
+.a:hover{
+    animation: lighting 1.5s linear;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-name: jump;
+}
+
+.rest:hover {
+    animation: lighting 1.5s linear;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+
+}
+
+
+@keyframes lighting {
+    0% { color: #293441;
+    text-shadow: none;
+    transform: translateY(0);
+}
+10% {
+    transform: translateY(0);
+ }
+
+ 25% {
+    transform: translateY(-35px);
+ }
+
+ 50% {
+    transform: translateY(0);
+ }
+
+ 57% {
+    transform: translateY(-7px);
+ }
+
+ 64% {
+    transform: translateY(0);
+ }
+    100% { color: #66fcf1;
+    text-shadow: none;
+    transform: translateY(0);
+}
+}
+
+@keyframes jump {
+    0% { 
+    transform: translateY(0);
+}
+10% {
+    transform: translateY(0);
+ }
+
+ 25% {
+    transform: translateY(-35px);
+ }
+
+ 50% {
+    transform: translateY(0);
+ }
+
+ 57% {
+    transform: translateY(-7px);
+ }
+
+ 64% {
+    transform: translateY(0);
+ }
+    100% { 
+    transform: translateY(0);
+}
+}
+
+.img2 {
+    filter: grayscale(100%) saturate(0.25) brightness(60%);
+}
+
+.main-info,
+.more {
+    grid-column: 2 / -2;
+}
+
+.combined-images {
+    position: relative;
+    height: 50vh;
+    padding-top: 3em;
+    grid-row: 3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work { 
+   width: 100%;
+   position: absolute;
+
+}
+
+.project1 {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.languages,
+.site-name,
+.site,
+.combined-images {
+    grid-column: 1 / -1;
+}
+
+.site-name {
+    color: white;
+    grid-row: 3;
+    margin-top: auto;
+    margin-bottom: 2em;
+    z-index: 1000000000;
+    margin-left: .5rem;
+    font-size: 60px;
+}
+
+
+.languages {
+    color: white;
+    grid-row: 3;
+    margin-top: 1em;
+}

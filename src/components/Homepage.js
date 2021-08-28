@@ -5,8 +5,6 @@ import shadow from '../assets/svg/logo-dark.svg'
 import { Link } from 'gatsby'
 import Stack from './Stack'
 import Bounce from 'react-reveal/Bounce';
-
-
 export default function Homepage() {
   return (
 
