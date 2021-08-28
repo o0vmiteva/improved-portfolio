@@ -337,8 +337,8 @@
     transition: all .5s;
 }
 
-.linkedin-icon:hover svg,
-.git-icon:hover svg{
+.linkedin-icon svg:hover,
+.git-icon svg:hover {
     color: #66fcf1;
 }
 
