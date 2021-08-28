@@ -106,10 +106,10 @@ export default function About() {
           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
           takimata sanctus est Lorem ipsum dolor sit amet.</p>
         <Link className='git-icon' target="_blank" to='https://github.com/o0vmiteva'>
-          <FaGithub size='2.5em' color='white'/>
+          <FaGithub size='2.5em'/>
         </Link>
         <Link className='linkedin-icon' target="_blank" to='https://github.com/o0vmiteva'>
-          <GrLinkedin size='2.5em' color='white' />
+          <GrLinkedin size='2.5em'/>
         </Link>
        
         {/* <MouseParticles
