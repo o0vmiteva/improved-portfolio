@@ -49,19 +49,7 @@ export default function Projects() {
            </Bounce>
          </h1>
 
-        <p className='main-info'>Some text goes here Some text goes here Some text goes here 
-          Some text goes here Some text goes here Some text goes here 
-          Some text goes here Some text goes here Some text goes here </p>
-        <Link className='more' to='/'>More Projects</Link>
-        <div className='project1'>
-          <p className='languages'>HTML | CSS | JavaScript | React</p>
-          <h2 className='site-name'>HelleDENT</h2>
-          <Link className='site' to='/'>Visit the website</Link>
-          <div className='combined-images'>
-            <img className='img1 work' src={work1}/>
-            <img className='img2 work' src={work1}/>
-          </div>
-        </div>
+      
 
           {/* <div className='gallery-container'>
             <img src={work1}/>
