@@ -28,7 +28,6 @@ export default function Projects() {
            </Bounce>
            <Bounce top delay={800}>
              <Reveal effect='lighting'>
-
               <div className='rest'>W</div>
             </Reveal>
            </Bounce>

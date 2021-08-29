@@ -3,6 +3,7 @@
     padding-bottom: 2em;
     display: grid;
     grid-template-columns: 2em 1fr 2em;
+
 }
 
 
@@ -99,6 +100,9 @@
 }
 }
 
+
+
+
 .img2 {
     filter: grayscale(100%) saturate(0.25) brightness(60%);
 }
@@ -110,7 +114,6 @@
 
 .combined-images {
     position: relative;
-    height: 50vh;
     padding-top: 3em;
     grid-row: 3;
     width: 90%;
@@ -118,17 +121,6 @@
     margin-right: auto;
 }
 
-.work { 
-   width: 100%;
-   position: absolute;
-
-}
-
-.project1 {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .languages,
 .site-name,
@@ -137,11 +129,31 @@
     grid-column: 1 / -1;
 }
 
+.work { 
+    width: 100%;
+
+ }
+ 
+ .img1 {
+     position: relative;
+ }
+ 
+ .img2 {
+     position: absolute;
+     left: 0;
+ }
+ 
+ .project1 {
+     grid-column: 1 / -1;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
 .site-name {
     color: white;
     grid-row: 3;
     margin-top: auto;
-    margin-bottom: 2em;
+    margin-bottom: 5%;
     z-index: 1000000000;
     margin-left: .5rem;
     font-size: 60px;
